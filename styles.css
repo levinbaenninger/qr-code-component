@@ -1,0 +1,105 @@
+body {
+	margin: 0;
+	font-size: 1rem;
+	font-weight: 400;
+	font-family: 'Outfit', sans-serif;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/* Typography */
+
+.main-title {
+	font-size: 1.5rem;
+	color: hsl(218, 44%, 22%);
+	margin: 0.2em 1em;
+}
+
+.main-body {
+	font-size: 1rem;
+	color: hsl(220, 15%, 55%);
+	margin: 1em 2.5em 2em;
+}
+
+/* Layout */
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: hsl(212, 45%, 89%);
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	width: 90%;
+	border-radius: 2em;
+	margin: 1em 0 1em;
+}
+
+img {
+	width: 100%;
+	padding: 1em;
+	border-radius: 2em;
+}
+
+@media (min-width: 576px) {
+	.main-title {
+		font-size: 1.5rem;
+	}
+
+	.main-body {
+		font-size: 1rem;
+	}
+
+	.main {
+		width: 70%;
+	}
+}
+
+@media (min-width: 768px) {
+	.main-title {
+		font-size: 1.75rem;
+	}
+
+	.main-body {
+		font-size: 1.25rem;
+	}
+
+	.main {
+		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.main-title {
+		font-size: 2rem;
+	}
+
+	.main-body {
+		font-size: 1.5rem;
+	}
+
+	.main {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.main {
+		width: 35%;
+	}
+}
+
+@media (min-width: 1400px) {
+	.main {
+		width: 30%;
+	}
+}
